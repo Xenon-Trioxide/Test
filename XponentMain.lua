@@ -12,7 +12,7 @@ local XPONENT = {
 		USERINPUT_S = game:GetService("UserInputService"),
 		HTTP_S = game:GetService("HttpService"),
 		TP_S = game:GetService("TeleportService"),
-		VIM_S = game:GetService("VirtualInputService")
+		VIM_S = game:GetService("VirtualInputManager")
 	},
 	Modules = {
 		INPUT_M = loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trioxide/Test/refs/heads/Dev/Modules/Input.lua'))(),
